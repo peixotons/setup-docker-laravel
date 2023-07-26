@@ -22,6 +22,10 @@ cp -rf setup-docker-laravel/* app-laravel/
 cd app-laravel/
 ```
 
+Remove o diretorio git pois tem log de commit (verifique com git log)
+```sh
+rm -rf .git
+```
 
 Crie o Arquivo .env
 ```sh
